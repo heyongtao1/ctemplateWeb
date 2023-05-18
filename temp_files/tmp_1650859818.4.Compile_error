@@ -1,0 +1,7 @@
+./temp_files/tmp_1650859818.4.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./temp_files/tmp_1650859818.4.cpp:8:3: error: ‘ssss’ was not declared in this scope
+    8 |   ssss
+      |   ^~~~
+./temp_files/tmp_1650859818.4.cpp:9:5: warning: no return statement in function returning non-void [-Wreturn-type]
+    9 |     }
+      |     ^

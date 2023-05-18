@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+   <style type="text/css">
+      div[id] {
+          color: red;
+      }
+   </style>
+  </head>
+  <body>
+    <div id="headdiv">{{id}}.{{name}}.{{diff}}</div>
+    <hr>
+    <div><pre>{{desc}}<pre></div>
+
+    <form action="/compile/{{id}}" method="POST">
+      <textarea type="text" name="code" rows=30 cols=100>{{header}}</textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

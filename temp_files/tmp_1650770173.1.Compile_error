@@ -1,0 +1,3 @@
+./temp_files/tmp_1650770173.1.cpp:11:3: error: ‘ssss’ does not name a type
+   ssss;
+   ^
